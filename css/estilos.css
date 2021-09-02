@@ -1,0 +1,152 @@
+
+
+ /*body {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #131313;}*/
+
+.container1 {
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: wrap;
+   
+    transform-style: preserve-3d;
+}
+
+.container1 .box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    background: #232323;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+}
+
+.container1 .box::before {
+    content: 'WEB';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 6em;
+    font-weight: 900;
+    color: #fff;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container1 .box::after {
+    content: 'DEV';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 5em;
+    font-weight: 900;
+    color: #fff;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container1 .box:hover::before,
+.container1 .box:hover::after {
+    opacity: 0.04;
+}
+
+.container1 .box .name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,75px);
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+.container1 .box:hover .name
+{
+    top: 40px;
+    opacity: 1;
+}
+
+.container1 .box .buy
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform:translate3d(-50%,0,75px);
+    color: #333;
+    background: #333;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+.container1 .box:hover .buy
+{
+    bottom: 30px;
+    opacity: 1;
+}
+
+.container1 .box .circle
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.5s;
+    background: #fff;
+    transform-style: preserve-3d;
+    z-index: 10;
+    opacity: 1;
+    transform: translate3d(-50%,-50%,50px);
+}
+
+.container1 .box .product
+{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    max-width: 150px;
+    z-index: 11;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,-50%,50px) rotate(15deg);
+}
+
+.container1 .box:hover .product
+{
+    transform: translate3d(-50%,-50%,100px) rotate(15deg);
+}
+
+.container1 .box:nth-child(1) .circle,
+.container1 .box:nth-child(1) .buy
+{
+    background: #fff;
+
+}
+.container1 .box:nth-child(2) .circle,
+.container1 .box:nth-child(2) .buy
+{
+    background: #fff;
+}
+
+.container1 .box:nth-child(3) .circle,
+.container1 .box:nth-child(3) .buy
+{
+    background: #fff;
+}
