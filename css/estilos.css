@@ -1,26 +1,18 @@
 
 
- /*body {
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #131313;}*/
 
 .container1 {
     display: flex;
-    
     align-items: center;
     flex-wrap: wrap;
-   
-    transform-style: preserve-3d;
+     transform-style: preserve-3d;
 }
 
 .container1 .box {
     position: relative;
     width: 300px;
     height: 400px;
-    margin: 40px;
+    margin: 0px;
     background: #232323;
     border-radius: 20px;
     transform-style: preserve-3d;
