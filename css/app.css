@@ -43,7 +43,7 @@ body{
     cursor: pointer;
     position: absolute;
     bottom: 0;
-    left: 70px;
+    left: 25px;
     transition: transform 300ms;
    
 }
