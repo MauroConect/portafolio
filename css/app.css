@@ -35,8 +35,7 @@ body{
 .menu-item{
     width: var(--sizeButton);
     height: var(--sizeButton);
-    background: rgb(12,33,187);
-background: radial-gradient(circle, rgba(12,33,187,1) 0%, rgba(92,235,226,1) 100%); /*Boton antes del Hover*/
+    background: var(--primaryColor);
     display: flex;
     justify-content: center;
     align-items: center;
