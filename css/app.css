@@ -28,6 +28,7 @@ body{
     bottom: 25px;
     left: 10%;
     transform: translateX(-50%);
+    z-index: 1000;
     
 }
 
@@ -49,6 +50,7 @@ body{
 
 .menu-item:hover{
     background: var(--colorHover);
+
 }
 
 .menu-item img{
@@ -57,23 +59,27 @@ body{
 }
 
 #menu{
-    z-index: 1000;
+    z-index: 999;
 }
 
 .menu-active #menu img{
     transform: rotate(45deg);
+   
 }
 
 .menu-active .menu-item:nth-child(2){
     transform: translateY(-300px);
+    
 }
 
 .menu-active .menu-item:nth-child(3){
     transform: translateY(-200px);
+    
 }
 
 .menu-active .menu-item:nth-child(4){
     transform: translateY(-100px);
+    
 }
 
 
