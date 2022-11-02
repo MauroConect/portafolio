@@ -30,7 +30,7 @@
    <nav class="navbar navbar-expand-lg fixed-top">
 
       <div class="container">
-         <a class="navbar-brand text-white fs-3" href="#" class="animate__animated animate__backInRight">Mauro
+         <a class="navbar-brand text-white fs-3" href="index.html" class="animate__animated animate__backInRight">Mauro
             Toranzo</a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,13 +39,16 @@
          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto me-lg-4 py-3">
                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+               </li>
+               <li class="nav-item">
                   <a class="nav-link" href="#about">Sobre Mi</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#portafolio">Experiencia</a>
+                  <a class="nav-link" href="#services">Skills</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#portafolio">Portafolio</a>
+                  <a class="nav-link" href="#portfolio">Portafolio</a>
                </li>
             </ul>
          </div>
@@ -55,150 +58,97 @@
       <div class="container" class="animate__animated animate__backInRight">
          <div class="row">
             <div class="col-md-5 text-white mt-4 ms-md-5 text-center-xs" style="z-index: 1;">
-               <h1 class="fontRoboto" class="animate__animated animate__backInRight">comer guiso</h1>
-               <p class="fontItim">Mi nombre es Mauro Toranzo, soy desarrollador web PHP Full Stack, Experiencia en el desarrollo de Comercio Electrónico con WordPress y WooCommerce. Experiencia en el uso de tecnologías: Drupal, Site Studio. Laravel, vue js, git, docker, Aquia, metodologías ágiles, construcción de aplicaciones MVC y servicios Rest.</p>
-               <a class="btn btn-lg btn-primary" href="#">Descargar CV <i
-                     class="bi bi-arrow-right-circle"></i></a>
+               <h1 class="fontRoboto" class="animate__animated animate__backInRight">Grupo Clarin</h1>
+               <p class="fontItim">Desarrollo de diferentes productos con Laravel, vue js, bootstrap, php, javascript, docker, sql server</p>
+               <a class="btn btn-lg btn-primary" href="https://www.ab-inbev.com/">Ver Mas</a>
             </div>
             <div class="col ms-md-5 mt-3 mt-md-0 text-center-xs" style="z-index: 1;">
-               <img class="img-fluid" width="498" src="img/programming.svg">
+               <img class="img-fluid" width="300" src="img/lv.png">
             </div>
          </div>
       </div>
    </header>
-
-   <!--Seccion de Tecnologias-->
-   <div class="container">
-      <div class="section-title">
-         <h2>Experiencia</h2>
-      </div>
-   </div>
-   <div class="portafolio">
-      <div class="row"> 
-   
-   
-            <div class="container1">
-               <div class="box">
-                  <h2 class="name">Freelance</h2>
-                  <a href="#" class="buy">Repositorio</a>
-                  <div class="circle"></div>
-                  <img src="img/front.png" alt="" class="product" draggable="false">
-               </div>
-               <div class="box">
-                  <h2 class="name">BP4</h2>
-                  <a href="bp4.html" class="buy">Proyectos</a>
-                  <div class="circle"></div>
-                  <img src="img/bp4-logo.svg" alt="" class="product" draggable="false">
-               </div>
-               <div class="box">
-                  <h2 class="name">SOFT</h2>
-                  <a href="#" class="buy">Proyectos</a>
-                  <div class="circle"></div>
-                  <img src="img/soft.png" alt="" class="product" draggable="false">
-               </div>
-            </div>
-   
-         
-      </div>
-   </div>
-      <!--Fin Seccion de Tecnologias-->
-
+               
    <!-- seccion Portafolio -->
    <section id="portfolio" class="portfolio">
       <div class="container">
          <div class="section-title">
-            <h2>Algunos Proyectos</h2>
+            <h2>Portafolio</h2>
          </div>
          <ul id="portfolio-filters" class="d-flex justify-content-center">
             <li data-filter="*" class="filter-active">Todo</li>
             <li data-filter=".filter-web">Proyectos</li>
-            <li data-filter=".filter-app">Github</li>
+            <li data-filter=".filter-app">Tecnologias</li>
          </ul>
          <div class="row portfolio-container">
             <div class="col-lg-4 col-md-6 portfolio-item filter-web mb-4">
                <div class="portfolio-img">
-                  <img src="img/Patagonia.PNG " class="img-fluid ">
+                  <img src="img/Patagonia.PNG" class="img-fluid">
                   <div class="portfolio-info">
-                     <h4>Sitio Web Patagonia</h4>
+                     <h4>Desarrollo Gestion Bines</h4>
 
-                     <p class="me-5">Migracion Sitio Cerveza Patagonia</p>
+                     <p class="me-5">Desarrollo del producto desde 0 para la Marca Cerveza Patagonia de Abinbev</p>
 
-                     <a href="" title="Cerveza Patagonia" class="preview-link popup-image"><i class="bi bi-plus"></i></a>
-                     <a href="https://www.cervezapatagonia.com.ar" title="Ver más " target="_blank "
-                        class="details-link"><i class="bi bi-link "></i></a>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web mb-4">
-               <div class="portfolio-img">
-                  <img src="img/eklos.PNG" class="img-fluid ">
-                  <div class="portfolio-info">
-                     <h4>Eklos</h4>
-
-                     <p class="me-5">Desarrollo Sitio web Eklos con Drupal y Twig</p>
-
-                     <a href="" title="Eklos" class="preview-link popup-image"><i class="bi bi-plus"></i></a>
-                     <a href="https://eklos.com.ar/" title="Ver más " target="_blank "
-                        class="details-link"><i class="bi bi-link "></i></a>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web mb-4">
-               <div class="portfolio-img">
-                  <img src="img/lavoz.PNG" class="img-fluid">
-                  <div class="portfolio-info">
-                     <h4>La Voz Del Interior</h4>
-
-                     <p class="me-5">Desarrollo de modulo para Gestion de pedidos y call center de la Voz</p>
-
-                     <a href="" title="La voz" class="preview-link popup-image"><i class="bi bi-plus "></i></a>
-                     <a href="https://www.lavoz.com.ar/" title="Ver más" target="_blank"
+                     <a href="img/fm1.png " title="sistema radio" class="preview-link popup-image"><i
+                           class="bi bi-plus "></i></a>
+                     <a href="https://www.cervezapatagonia.com.ar" title="Ver más" target="_blank"
                         class="details-link"><i class="bi bi-link"></i></a>
                   </div>
                </div>
             </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web mb-4">
+                <div class="portfolio-img">
+                   <img src="img/viajes.PNG" class="img-fluid">
+                   <div class="portfolio-info">
+                      <h4>Desarrollo integrador</h4>
+ 
+                      <p class="me-5">Desarrollo integrador</p>
+ 
+                      <a href="img/fm1.png " title="sistema radio" class="preview-link popup-image"><i
+                            class="bi bi-plus "></i></a>
+                      <a href="https://www.cervezapatagonia.com.ar/viajes" title="Ver más" target="_blank"
+                         class="details-link"><i class="bi bi-link"></i></a>
+                   </div>
+                </div>
+             </div>
+
+             <div class="col-lg-4 col-md-6 portfolio-item filter-web mb-4">
+                <div class="portfolio-img">
+                   <img src="img/juegos-verano.PNG" class="img-fluid">
+                   <div class="portfolio-info">
+                      <h4>Desarrollo Club la voz</h4>
+ 
+                      <p class="me-5">Desarrollo Club la voz</p>
+ 
+                      <a href="img/fm1.png " title="sistema radio" class="preview-link popup-image"><i
+                            class="bi bi-plus "></i></a>
+                      <a href="https://www.cervezapatagonia.com.ar/juegos-verano" title="Ver más" target="_blank"
+                         class="details-link"><i class="bi bi-link"></i></a>
+                   </div>
+                </div>
+             </div>
+             <div class="col-lg-4 col-md-6 portfolio-item filter-web mb-4">
+               <div class="portfolio-img">
+                  <img src="img/eklos.PNG" class="img-fluid">
+                  <div class="portfolio-info">
+                     <h4>Eklos</h4>
+
+                     <p class="me-5">Desarrollo sitio Web Eklos</p>
+
+                     <a href="img/fm1.png " title="sistema radio" class="preview-link popup-image"><i
+                           class="bi bi-plus "></i></a>
+                     <a href="https://eklos.com.ar/" title="Ver más" target="_blank"
+                        class="details-link"><i class="bi bi-link"></i></a>
+                  </div>
+               </div>
+               
+            </div>
          </div>
       </div>
    </section>
 
-   <!-- seccion contacto -->
-   <section id="contacto" class="contacto section-bg">
-      <div class=" container ">
-         <div class="section-title ">
-            <h2>Contacto</h2>
-         </div>
-         <div class="row ">
-            <div class="col-md-6 ">
-               <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12743.52856206124!2d-62.4184711243071!3d-37.01260799296984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ea40ce38e11c8d%3A0xdb847484ed9e8aa9!2sGuamin%C3%AD%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1620100259507!5m2!1ses-419!2sar"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" width="600 "
-                  height="350 " style="border:0; " allowfullscreen=" " loading="lazy "></iframe>
-            </div>
-            <div class="col-md-6 mt-3 mt-md-0 ">
-               <div class="mb-3 ">
-                  <label for="exampleFormControlInput1 " class="form-label ">Nombre</label>
-                  <input type="text " class="form-control " id="exampleFormControlInput1 " placeholder="tu nombre ">
-               </div>
-               <div class="mb-3 ">
-                  <label for="exampleFormControlInput1 " class="form-label ">Correo electronico</label>
-                  <input type="email " class="form-control " id="exampleFormControlInput1 "
-                     placeholder="name@example.com ">
-               </div>
-               <div class="mb-3 ">
-                  <label for="exampleFormControlTextarea1 " class="form-label ">comentario</label>
-                  <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "></textarea>
-               </div>
-               <div class="d-grid ">
-                  <button class="btn btn-primary " type="button ">Enviar</button>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
-
-   <!-- Menú flotante 
+   <!-- Menú flotante -->
    <div class="menu-content">
       <span class="menu-item" id="menu">
          <img src="./svg/mas.svg" alt="Más">
@@ -213,7 +163,7 @@
          <img src="./svg/linkedin.svg" alt="Youtube">
       </a>
    </div>
-   -->
+   <!--fin boton flotante-->
 
    <footer>
       <div class="container">
@@ -227,11 +177,17 @@
             <div class="col-md-3">
                <h4 class="mb-3">Menu</h4>
                <ul class="list-unstyled">
+                  <li><a href="">Nosostros</a></li>
+                  <li><a href="">Servicios</a></li>
+                  <li><a href="">Portafolio</a></li>
                </ul>
             </div>
             <div class="col-md-3">
                <h4 class="mb-3">Servicios</h4>
                <ul class="list-unstyled">
+                  <li><a href="">Desarrollo Web</a></li>
+                  <li><a href="">Soluciones Informaticas</a></li>
+                  <li><a href="">Marketing Digital</a></li>
                </ul>
             </div>
             <div class="col-md-3">
@@ -250,7 +206,7 @@
          <hr>
          <div class="row">
             <div class="col-12 text-center my-3">
-               Copyrights © 2022 <a href="#">Mauro Toranzo</a>
+               Copyrights © 2022 <a href="#">Mauro Toranzo</a> - Todos los derechos reservados
             </div>
          </div>
       </div>
